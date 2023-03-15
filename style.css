@@ -1,0 +1,152 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  /*BAJAMOS EL TAMAÑO DE LA LETRA*/
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  font-kerning: ;
+
+}
+
+/* Encabezado */
+
+header {
+  /*HACER DEGRADADO*/
+  background: linear-gradient(135deg, #0041ad, #21deff);
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /*eliminar este que ya no está */
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  /*cambiar tamaño de letra*/
+  font-size: larger;
+}
+
+nav ul li {
+  margin-right: 1em;
+}
+/*encabezado acerca de mi proyectos*/
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 2em;
+
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.cta {
+  background-color: #ff9b68;
+  color: #ffffff;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-top: 1em;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #ffd25c;
+  color: #0041ad;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+/* Secciones */
+
+section {
+
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+section h2 {
+  color: #0041ad;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.proyecto {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.proyecto img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1em;
+}
+
+.proyecto h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.proyecto p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Formulario de contacto */
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1em;
+}
+
+textarea {
+  height: 150px;
+}
+
